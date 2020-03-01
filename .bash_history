@@ -40,3 +40,22 @@ git --version
 mkdir rja1
 cd raja1
 sudo su -
+mkdir suri
+cd suri
+touch h1 h2 h3 h4 h5
+git config --global user.name "suri"
+git config --global user.email "suri@gmail.com"
+ls -ltr
+git add _A
+git add -A
+git status
+git commit -m "uihasjkhjajjd"
+git log
+git remote add suri 
+git remote add suri https://github.com/venkat9010/suri.git
+git push suri master
+ls -ltr
+git clone
+git clone suri
+git clone 
+git log
